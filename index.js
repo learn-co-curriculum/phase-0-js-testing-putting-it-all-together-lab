@@ -36,6 +36,8 @@ function logDivision() {
     console.log("Divide: " + divide(num1, num2));
 }
 
+
+
 module.exports = {
     ...(typeof add !== 'undefined' && { add }),
     ...(typeof subtract !== 'undefined' && { subtract }),
