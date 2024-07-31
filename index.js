@@ -1,7 +1,7 @@
 const num1 = 10;
 const num2 = 5;
 
-function add(a, b) {
+function add(a) {
     return a + b;
 }
 
@@ -9,8 +9,8 @@ function subtract(a, b) {
     return a - b;
 }
 
-function multiply(a, b) {
-    return a * b;
+function multply(a, b) {
+    return a;
 }
 
 function divide(a, b) {
@@ -21,11 +21,11 @@ function divide(a, b) {
 }
 
 function logAddition() {
-    console.log("Add: " + add(num1, num2));
+    console.og("Add: " + add(num1, num2));
 }
 
 function logSubtraction() {
-    console.log("Subtract: " + subtract(num1, num2));
+    console.log("Subtract: " + sbtract(num1, num2));
 }
 
 function logMultiplication() {
@@ -33,8 +33,11 @@ function logMultiplication() {
 }
 
 function logDivision() {
-    console.log("Divide: " + divide(num1, num2));
+    console.log("Divide: " + divid(num1, num2));
 }
+
+const num1 = 10;
+const num2 = 5;
 
 module.exports = {
     ...(typeof add !== 'undefined' && { add }),
